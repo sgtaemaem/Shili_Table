@@ -1,0 +1,24 @@
+[Unit]
+Description=UPJI Vision Test Application
+After=graphical-session.target
+Wants=graphical-session.target
+
+[Service]
+Type=simple
+User=cat
+Group=cat
+WorkingDirectory=/home/cat/桌面/shilibiao/upji
+Environment=DISPLAY=:0
+Environment=XDG_RUNTIME_DIR=/run/user/1000
+Environment=PULSE_RUNTIME_PATH=/run/user/1000/pulse
+ExecStart=/usr/bin/python3 /home/cat/桌面/shilibiao/upji/main.py
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+# 确保在图形界面启动后运行
+Requisite=graphical-session.target
+
+[Install]
+WantedBy=default.target

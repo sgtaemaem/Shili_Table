@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+<stop offset="100%" style="stop-color:#e3f2fd;stop-opacity:1" />
+</linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M 40 0 L 0 0 0 40" fill="none" stroke="#e0e0e0" stroke-width="1" opacity="0.3"/>
+</pattern>
+</defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<rect width="800" height="600" fill="url(#grid)"/>
+<!-- Medical cross pattern -->
+<g opacity="0.1">
+<path d="M100 100 L120 100 L120 80 L140 80 L140 100 L160 100 L160 120 L140 120 L140 140 L120 140 L120 120 L100 120 Z" fill="#2196F3"/>
+<path d="M300 200 L320 200 L320 180 L340 180 L340 200 L360 200 L360 220 L340 220 L340 240 L320 240 L320 220 L300 220 Z" fill="#2196F3"/>
+<path d="M500 150 L520 150 L520 130 L540 130 L540 150 L560 150 L560 170 L540 170 L540 190 L520 190 L520 170 L500 170 Z" fill="#2196F3"/>
+<path d="M650 300 L670 300 L670 280 L690 280 L690 300 L710 300 L710 320 L690 320 L690 340 L670 340 L670 320 L650 320 Z" fill="#2196F3"/>
+<path d="M200 400 L220 400 L220 380 L240 380 L240 400 L260 400 L260 420 L240 420 L240 440 L220 440 L220 420 L200 420 Z" fill="#2196F3"/>
+</g>
+<!-- Eye symbols -->
+<g opacity="0.08">
+<ellipse cx="600" cy="100" rx="30" ry="20" fill="#2196F3"/>
+<ellipse cx="600" cy="100" rx="15" ry="15" fill="#FFF"/>
+<circle cx="600" cy="100" r="8" fill="#2196F3"/>
+<ellipse cx="150" cy="500" rx="30" ry="20" fill="#2196F3"/>
+<ellipse cx="150" cy="500" rx="15" ry="15" fill="#FFF"/>
+<circle cx="150" cy="500" r="8" fill="#2196F3"/>
+</g>
+</svg>

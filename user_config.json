@@ -1,0 +1,72 @@
+{
+  "siliconflow": {
+    "api_key": "sk-htctdqufvhjaqasurtmalwguusklmzvhhbncoxptmjcbineh",
+    "models": {
+      "🔥 DeepSeek-R1 (最新推理模型)": "deepseek-ai/DeepSeek-R1",
+      "DeepSeek-R1-0528 (优化版本)": "deepseek-ai/DeepSeek-R1-0528",
+      "🆕 DeepSeek-R1-0120 (最新版)": "Pro/deepseek-ai/DeepSeek-R1-0120",
+      "💎 DeepSeek-V3 (Pro版本)": "Pro/deepseek-ai/DeepSeek-V3",
+      "Qwen3-32B (高性能)": "Qwen/Qwen3-32B",
+      "Qwen3-14B (平衡性能)": "Qwen/Qwen3-14B",
+      "⭐ Qwen3-8B (推荐，速度快)": "Qwen/Qwen3-8B",
+      "🆕 Qwen3-30B-A3B (大模型)": "Qwen/Qwen3-30B-A3B",
+      "QwenLong-L1-32B (长文本)": "Tongyi-Zhiven/QwenLong-L1-32B",
+      "🆕 GLM-Z1-32B (智谱AI最新)": "THUDM/GLM-Z1-32B-0414",
+      "GLM-4-32B (智谱AI)": "THUDM/GLM-4-32B-0414"
+    },
+    "default_model": "Qwen/Qwen3-32B",
+    "timeout": 15,
+    "max_tokens": 500,
+    "temperature": 0.3,
+    "top_p": 0.8
+  },
+  "camera": {
+    "default_camera_index": 1,
+    "resolution": {
+      "height": 720,
+      "width": 1280
+    },
+    "fps": 30,
+    "exposure": -4,
+    "brightness": 128,
+    "contrast": 128,
+    "auto_detect": true
+  },
+  "system": {
+    "enable_ai_diagnosis": true,
+    "show_api_key_reminder": true,
+    "vision_test": {
+      "start_vision": 5.0,
+      "min_vision": 4.0,
+      "max_vision": 5.3,
+      "success_hold_time": 1.0,
+      "timeout_duration": 6.0,
+      "stable_frames": 2
+    },
+    "voice_recognition": {
+      "enabled": true,
+      "volcengine": {
+        "app_id": "8365384522",
+        "access_token": "hxqK3tmWOHtrdYEPfej2oKcGR-39aXTb",
+        "secret_key": "U62ETOFnfHYu96nifWtXIhd9TtDsSruw"
+      },
+      "audio": {
+        "microphone_index": -1,
+        "sample_rate": 16000,
+        "chunk_size": 3200,
+        "channels": 1,
+        "low_latency_mode": true
+      },
+      "auto_start": true
+    },
+    "camera": {
+      "default_camera_index": 0,
+      "resolution": {
+        "height": 480,
+        "width": 640
+      },
+      "fps": 30
+    },
+    "auto_fullscreen": true
+  }
+}
