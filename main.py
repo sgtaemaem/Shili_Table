@@ -2,6 +2,7 @@
 电子视力表系统主程序
 """
 import sys
+import numpy
 import os
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import Qt
