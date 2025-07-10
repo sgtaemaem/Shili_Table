@@ -1,4 +1,4 @@
-# 🏆 博创杯参赛作品 - RK3588智能视力检测系统
+# 🏆 参赛作品 - RK3588智能视力检测系统
 
 [![RK3588](https://img.shields.io/badge/Platform-RK3588-orange.svg)](https://www.rock-chips.com/a/en/products/RK35_Series/2022/0926/1660.html)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
